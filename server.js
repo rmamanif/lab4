@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.get('/clientes', (req, res) => {
 
-    res.render('about');
+    res.render('clientes');
 });
 
 app.get('/productos', (req, res) => {
